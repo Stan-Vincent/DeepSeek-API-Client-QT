@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Icon">
+        <file>build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Icon/ai_4471.png</file>
+        <file>build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Icon/settings.png</file>
+    </qresource>
+</RCC>

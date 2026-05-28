@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsDialog</class>
+ <widget class="QDialog" name="SettingsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>220</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Icon.qrc">
+    <normaloff>:/Icon/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Icon/settings.png</normaloff>:/Icon/build/Desktop_Qt_6_11_0_MinGW_64_bit-Debug/Icon/settings.png</iconset>
+  </property>
+ </widget>
+ <resources>
+  <include location="Icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

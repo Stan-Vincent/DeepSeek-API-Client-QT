@@ -1,0 +1,35 @@
+# 编译产物
+build*/
+cmake-build-*/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.a
+*.lib
+
+# Qt 生成的临时文件
+*.user
+*.user.*
+*.qmlc
+*.jsc
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+
+# 本地配置文件（包含 API Key 等敏感信息）
+settings.json
+sessions.json
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 打包发布目录
+release/
+deploy/

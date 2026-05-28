@@ -1,0 +1,133 @@
+/* ========== Markdown 渲染样式（亮色/深色通用，但可根据主题微调） ========== */
+/* 注意：此样式表通过 setDefaultStyleSheet 应用到 QTextDocument 中，不影响控件本身 */
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* 标题 */
+h1 {
+    color: #2c3e4f;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 0.8em 0 0.4em;
+    border-bottom: 1px solid #e2e8f0;
+}
+h2 {
+    color: #34495e;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0.7em 0 0.3em;
+}
+h3 {
+    color: #475569;
+    font-size: 1.25em;
+    font-weight: 600;
+    margin: 0.6em 0 0.2em;
+}
+h4, h5, h6 {
+    color: #4a5568;
+    font-weight: 600;
+}
+
+/* 段落 */
+p {
+    margin: 0.6em 0;
+    color: #1e293b;
+}
+
+/* 粗体 / 强调 */
+strong {
+    color: #e07c3c;          /* 与亮色主题强调色一致 */
+    font-weight: 600;
+}
+em {
+    font-style: italic;
+}
+
+/* 行内代码 */
+code {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    background-color: #f1f5f9;
+    padding: 0.2em 0.4em;
+    border-radius: 6px;
+    font-size: 0.9em;
+    color: #0f172a;
+}
+
+/* 代码块（pre 包围的 code） */
+pre {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    padding: 12px;
+    border-radius: 10px;
+    overflow-x: auto;
+    margin: 1em 0;
+}
+pre code {
+    background-color: transparent;
+    color: inherit;
+    padding: 0;
+    font-size: 0.9em;
+}
+
+/* 列表 */
+ul, ol {
+    margin: 0.5em 0;
+    padding-left: 2em;
+}
+li {
+    margin: 0.2em 0;
+}
+
+/* 引用块 */
+blockquote {
+    border-left: 4px solid #cbd5e1;
+    margin: 0.8em 0;
+    padding-left: 1em;
+    color: #475569;
+    font-style: italic;
+}
+
+/* 表格 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+    font-size: 0.9em;
+}
+th, td {
+    border: 1px solid #e2e8f0;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f8fafc;
+    font-weight: 600;
+}
+
+/* 水平分割线 */
+hr {
+    border: none;
+    border-top: 1px solid #e2e8f0;
+    margin: 1em 0;
+}
+
+/* 链接 */
+a {
+    color: #e07c3c;
+    text-decoration: underline;
+}
+a:hover {
+    color: #cc6a2e;
+}
+
+/* 图片 */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
