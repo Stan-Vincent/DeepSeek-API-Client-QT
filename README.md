@@ -32,7 +32,7 @@
 ### 从源码编译
 
 ```bash
-git clone https://github.com//Stan-Vincent//DeepSeek-API-Client-QT//DeepSeek-QT.git
+git clone https://github.com//Stan-Vincent//DeepSeek-API-Client-QT.git
 cd DeepSeek-QT
 mkdir build && cd build
 cmake ..
